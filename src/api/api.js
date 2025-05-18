@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://skillexbackend-5.onrender.com/api",
+  baseURL: "https://newskill-bridge.vercel.app/api",
 });
 
 export default api;
