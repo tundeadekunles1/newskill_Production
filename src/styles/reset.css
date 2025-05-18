@@ -1,0 +1,82 @@
+/* src/styles/reset.css */
+
+/* Reset default margins, paddings, and box sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font size and family */
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* Full height and width for better layout control */
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+
+  overflow-x: hidden;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset anchor tags */
+a {
+  text-decoration: none;
+}
+
+/* Remove outline on focus (except for accessibility) */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset headings for consistent styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Reset buttons */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Set default cursor for disabled elements */
+[disabled] {
+  cursor: not-allowed;
+}

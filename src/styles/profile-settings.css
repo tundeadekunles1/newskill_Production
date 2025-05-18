@@ -1,0 +1,110 @@
+/* Container */
+.profile-settings-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+  font-family: sans-serif;
+}
+
+/* Header */
+.profile-settings-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.profile-settings-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+/* Form Inputs */
+.profile-settings-form select,
+.profile-settings-form input[type="text"],
+.profile-settings-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/* Multi-select box */
+.profile-settings-form select[multiple] {
+  height: 100px;
+}
+
+/* Textarea */
+.profile-settings-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+/* Profile Picture Preview */
+.profile-preview {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 1px solid #888;
+}
+
+/* Save Button */
+.save-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Success/Error Message */
+.message {
+  margin-top: 15px;
+  text-align: center;
+  color: green;
+}
+
+/* Selected Skills Display */
+.selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+/* Skill Badge */
+.skill-badge {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Remove Skill Button */
+.skill-badge button {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}

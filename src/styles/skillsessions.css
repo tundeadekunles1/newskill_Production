@@ -1,0 +1,72 @@
+.skill-session-container {
+  padding: 20px;
+}
+
+.session-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-text {
+  font-weight: bold;
+}
+
+.status-text.pending {
+  color: orange;
+}
+
+.status-text.accepted {
+  color: green;
+}
+
+.status-text.rejected {
+  color: red;
+}
+
+.waiting-text {
+  color: orange;
+  font-style: italic;
+}
+
+.rejected-text {
+  color: red;
+  font-style: italic;
+}
+
+.start-learning-button {
+  background-color: green;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.message-button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.requested-time {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}

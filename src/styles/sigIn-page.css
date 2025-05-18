@@ -1,0 +1,123 @@
+.signin-modal {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+}
+
+.signin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.active-tab {
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.inactive-tab {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.close-btn {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.switch-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+.link {
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.google-signin {
+  width: 100%;
+  background: #fbb03b;
+  border: none;
+  padding: 0.7rem;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.google-signin img {
+  width: 20px;
+  height: 20px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.signin-form input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.forgot-password a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #fbb03b;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}

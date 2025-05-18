@@ -1,0 +1,62 @@
+.teacher-matches-container {
+  padding: 20px;
+}
+
+.teacher-matches-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.teacher-request-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.teacher-request-info h3 {
+  margin: 0 0 8px;
+}
+
+.teacher-request-info p {
+  margin: 4px 0;
+}
+
+.button-group {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.accept-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+.decline-button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.decline-button:hover {
+  background-color: #e53935;
+}
+
+.approved-text {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}

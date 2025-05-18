@@ -1,0 +1,164 @@
+/* Ensure full height for the entire page */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* App container */
+
+.App {
+  background-color: #c9c2c2;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner container */
+.innerContainer {
+  width: 100%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Align text in the center */
+  margin-top: -250px;
+}
+
+/* sections inside landing page */
+
+/* section 1  */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 700px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.faded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9; /* 90% opacity */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #000; /* Text color over faded image */
+  text-align: left;
+  z-index: 1;
+}
+
+.overlay-text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  font: roboto;
+}
+
+.overlay-text h3 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.overlay-text p {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #d22f27;
+  color: #fff;
+  width: 200px;
+  margin-top: 30px;
+}
+
+/* section 2  */
+.section2 {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  padding-top: 100px;
+}
+
+.section2div1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.section2div1 h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section2div1 h2 {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section2div1 h4 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section2Image {
+  width: 1200px;
+  height: 500px;
+}
+
+/* section 3 */
+
+.section3 {
+  width: 100%;
+  height: 500px;
+  background-color: #1e88e50d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section3-content1 {
+  text-align: center;
+}
+
+.section3-content2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3-content3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  border: 4px solid black;
+}
+
+/* .section3-content3 h4 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+} */
